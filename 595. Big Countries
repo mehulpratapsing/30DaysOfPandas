@@ -61,7 +61,7 @@ Output:
     A Pandas DataFrame with the name, population, and area of the big countries.
   """
 
-import pandas as pd
+import pandas as pd    #can comment out this to save runtime and memory
 
 def big_countries(world: pd.DataFrame) -> pd.DataFrame:
 
